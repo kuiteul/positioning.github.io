@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+}
+
+header {
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+header li {
+    padding: 0% 2% 0% 2%
+}
+
+#menu {
+    position: sticky;
+}
